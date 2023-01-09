@@ -9,6 +9,12 @@ Input :
 
 1) input.csv a tab-delimited file containing the ID of proband  in the first column and the absolute path of the proband, mother, and father CRAMs/BAMs in the second column, separated by #,
 
-Output :
+Running: 
 
-In a folder calls result two file are generated, the VCF of calls calling from Platypus named $ID-platypus.vcf and the DMNs filtered small variants obtained from bayesianDeNovoFilter.py script provided from platypus owens. 
+
+
+Output :
+In a `result` folder two files are generated: 
+- VCF of calls calling from Platypus called `$ID-platypus.vcf`
+- DMNs VCF filtered small variants of `bayesianDeNovoFilter.py` script provided by platypus developers
+
